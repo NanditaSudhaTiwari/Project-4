@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 # Parameters
 length = 14   # Length of the rod
-time_total = 120   # Total simulation time
+time_total = 3600   # Total simulation time
 num_points_space = 100  # Number of spatial points
-num_points_time = 200   # Number of time points
+num_points_time = 20000  # Number of time points
 
 # Thermal diffusivities for Aluminum and Silver
 alpha_aluminum = 9.71e-5   # Thermal diffusivity for Aluminum (calculated)
@@ -66,5 +66,3 @@ plt.ylabel('Temperature')
 plt.legend()
 plt.grid(True)
 plt.show()
-
-
